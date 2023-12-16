@@ -1,0 +1,89 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#UI {
+    width: 90vw;
+    height: 100%;
+    margin-left: 5vw;
+}
+
+#game {
+    display: none;
+    width: auto;
+    height: 30vw;
+    border: 3px solid black;
+}
+
+/** Compact Card Styling **/
+
+.compact-card {
+    width: 8vw;
+    height: auto;
+    padding: 0.3vw;
+    background-color: #000;
+    border: none;
+    display: grid;
+    grid-template-rows: 8vw 2vw 3.75vw;
+}
+
+.card-image-compact {
+    width: 8vw;
+    height: 8vw;
+    background-color: #fff;
+}
+
+.title-compact {
+    width: 8vw;
+    height: 1.5vw;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #252525;
+    color: #ffffff;
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 0.25vw 0vw 0.25vw 0vw;
+}
+
+.stats-compact {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 0.3vw;
+    padding: 0.3vw;
+    background-color: #444;
+}
+
+.inventory{
+    display: grid;
+    grid-template-columns: repeat(3, 8.6vw);
+    grid-gap: 1vw;
+    padding: 1vw;
+    background-color: #ccc;
+}
+
+.health {
+    width: auto;
+    height: auto;
+    border: 0.125vw solid #00ff00;
+    border-radius: 0.75vw;
+}
+
+.attack {
+    width: auto;
+    height: auto;
+    border: 0.125vw solid #ff0000;
+    border-radius: 0.75vw;
+}
+
+.evasion {
+    width: auto;
+    height: auto;
+    border: 0.125vw solid #0000ff;
+    border-radius: 0.75vw;
+}
